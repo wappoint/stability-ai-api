@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Hello</h1>
+{{range $key,$value := .}}
+<!--<div><p>{{ . }} says: <b>{{ . }}</b></p></div>-->
+<div>
+    <img src="{{.}}" alt="image">
+</div>
+{{end}}
+</body>
+</html>
